@@ -8,7 +8,7 @@ export const AppRoutes = () => { // definindo o componente AppRoutes
 
     return (
         <Routes>
-            <Route path="/pagina-inicial" element={<Button variant='contained' color='primary' onClick={toggleTheme}>te</Button>} /> {/* define a rota para a página inicial da aplicação, que renderiza um elemento de parágrafo do HTML */}
+            <Route path="/pagina-inicial" element={<Button variant='contained' color='primary' onClick={toggleTheme}>TOGGLE THEME</Button>} /> {/* define a rota para a página inicial da aplicação, que renderiza um elemento de parágrafo do HTML */}
             <Route path="*" element={<Navigate to="/pagina-inicia"/>} />  {/* define uma rota padrão que redireciona para a página inicial caso a URL não corresponda a nenhuma rota definida */}
         </Routes>
     );
