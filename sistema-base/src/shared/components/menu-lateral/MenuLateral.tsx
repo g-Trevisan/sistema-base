@@ -1,6 +1,6 @@
 import { Height } from "@mui/icons-material";
 import { Avatar, Drawer, Icon, List, ListItemButton, ListItemIcon, ListItemText, useTheme } from "@mui/material";
-import HomeIcon from '@mui/icons-material/Home';
+// import HomeIcon from '@mui/icons-material/Home';
 import Divider from '@mui/material/Divider';
 import { Box } from '@mui/system'
 
@@ -26,19 +26,19 @@ export const MenuLateral: React.FC<IMenuLateralProps> = ({ children }) => {
 
                 <Divider/>
 
-                <Box flex={1}>
-                    <List component="nav">
-                        <ListItemButton>
-                            <ListItemIcon>
-                                <HomeIcon></HomeIcon>
-                            <ListItemText primary="Pagina Inicial"/>    
-                            </ListItemIcon>
-                        </ListItemButton>
+                    <Box flex={1}>
+                        <List component="nav">
+                            <ListItemButton>
+                                <ListItemIcon>
+                                    <Icon>home</Icon>
+                                <ListItemText primary="Página Inicial"/>    
+                                </ListItemIcon>
+                            </ListItemButton>
 
-                    </List>
+                        </List>
 
 
-                </Box>
+                    </Box>
 
                 </Box>
             </Drawer>
